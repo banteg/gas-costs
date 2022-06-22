@@ -11,7 +11,7 @@ create an input file `addresses.txt` with one address on each line, then run to 
 python gas_costs.py addresses.txt 10000000
 ```
 the script will save both per-transaction and per-account reports in the `reports` folder, with
-a block range in the name so you know there to pick up next time.
+a block range in the name so you know where to pick up from next time.
 
 the per-account file can be used for sending gas reimbursements.
 
