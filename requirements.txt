@@ -1,5 +1,6 @@
 click
 dask
+distributed
 httpx
 pandas
 rich
