@@ -15,6 +15,9 @@ a block range in the name so you know where to pick up from next time.
 
 the per-account file can be used for sending gas reimbursements.
 
+another script called `safe_costs.py` accepts a list of gnosis safe addresses as input and outputs
+the costs incurred by accounts who called `execTransaction`, including failed ones.
+
 ## how it works
 
 1. find all outgoing transactions using `trace_filter` using batches of 100,000 blocks.
